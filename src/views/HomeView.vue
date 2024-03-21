@@ -12,10 +12,10 @@ import Container from '../components/Container.vue'
     </div>
 
 
-<Container title="Toegewezen" buttonText = "Toegewezen" korteText="Toegewezen rapportages" sectionimage="../assets/key.svg" link="/toegewezen"/>
-    <Container title="Uitgevoerd" buttonText = "Uitgevoerd" korteText="Uitgevoerde rapportages" sectionimage="../assets/check.svg" link="/uitgevoerd"/>
-    <Container title="Documentatie" buttonText = "Documentatie" korteText="Kennisbase/documentatie" sectionimage="../assets/documentatie.svg" link="/documentatie"/>
-    <Container title="Instellingen" buttonText = "Instellingen" korteText="Instellingen/beheer" sectionimage="../assets/setting_lv.svg" link="/settings"/>
+<Container title="Toegewezen" buttonText = "Toegewezen" korteText="Toegewezen rapportages" sectionimage="../src/assets/key.svg" link="/toegewezen"/>
+    <Container title="Uitgevoerd" buttonText = "Uitgevoerd" korteText="Uitgevoerde rapportages" sectionimage="../src/assets/check.svg" link="/uitgevoerd"/>
+    <Container title="Documentatie" buttonText = "Documentatie" korteText="Kennisbase/documentatie" sectionimage="../src/assets/documentatie.svg" link="/documentatie"/>
+    <Container title="Instellingen" buttonText = "Instellingen" korteText="Instellingen/beheer" sectionimage="../src/assets/setting_lv.svg" link="/settings"/>
 
   </main>
 </template>
