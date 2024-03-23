@@ -1,36 +1,37 @@
 <template>
     <article>
-        <div class="blue_div">
-            <img :src="sectionimage" alt="Button Image" @click="navigate">
-        </div>
-        <h3>{{ title }}</h3>
-        <p>{{ korteText }}</p>
+      <div class="blue_div">
+        <img :src="sectionimage" alt="Button Image" @click="navigate">
+      </div>
+      <h3>{{ title }}</h3>
+      <p>{{ korteText }}</p>
     </article>
-</template>
-<script>
-import { useRouter } from 'vue-router'
-
-export default {
+  </template>
+  
+  <script>
+  import { useRouter } from 'vue-router';
+  
+  export default {
     name: 'Container',
     props: {
-        sectionimage : String,
-        title: String,
-        korteText: String,
-        link: String
+      sectionimage: String,
+      title: String,
+      korteText: String,
+      link: String
     },
     setup(props) {
-        const router = useRouter()
-
-        const navigate = () => {
-            router.push(props.link)
-        }
-
-        return {
-            navigate
-        }
+      const router = useRouter();
+  
+      const navigate = () => {
+        router.push(props.link);
+      };
+  
+      return {
+        navigate
+      };
     }
-}
-</script>
+  };
+  </script>
 <style scoped>
 
 img {
