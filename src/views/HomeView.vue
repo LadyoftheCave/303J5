@@ -16,7 +16,6 @@ import settingImage from '@/assets/setting_lv.svg';
     </div>
 
     <Container title="Toegewezen" buttonText="Toegewezen" korteText="Toegewezen rapportages" :sectionimage="keyImage" link="/toegewezen"/>
-    <!-- Voeg absolute paden toe voor de overige afbeeldingen -->
     <Container title="Uitgevoerd" buttonText="Uitgevoerd" korteText="Uitgevoerde rapportages" :sectionimage="checkImage" link="/uitgevoerd"/>
     <Container title="Documentatie" buttonText="Documentatie" korteText="Kennisbase/documentatie" :sectionimage="docImage" link="/documentatie"/>
     <Container title="Instellingen" buttonText="Instellingen" korteText="Instellingen/beheer" :sectionimage="settingImage" link="/settings"/>
