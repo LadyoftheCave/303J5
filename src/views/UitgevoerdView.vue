@@ -10,12 +10,12 @@
     <li v-for="(item, index) in data.reports_performed" 
     :key="index" @click="showDetails(item)">
   <strong>Type: {{ item.type }}</strong>
-  <p v-if="item.new_damage">Location: {{ item.location }}</p>
+  <p>Location: {{ item.location }}</p>
   <p v-if="item.new_damage">New Damage: {{ item.new_damage }}</p>
   <p v-if="item.date">Date: {{ item.date }}</p>
   <p v-if="item.acute_action_required">Acute action: {{ item.acute_action_required }}</p>
   <p v-if="item.description">Description: {{ item.description }}</p>
-  <p v-if="item.new_damage">Pictures: {{ item.pictures }}</p>
+  <p>Pictures: {{ item.pictures }}</p>
   <p v-if="item.type_of_maintenance">Type of maintenance: {{ item.type_of_maintenance }}</p>
   <p v-if="item.cost_indication">Cost indication: {{ item.cost_indication }}</p>
   <p v-if="item.type_of_installation">Type of installation: {{ item.type_of_installation }}</p>
@@ -24,6 +24,11 @@
   <p v-if="item.test_approved">Approved: {{ item.test_approved }}</p>
   <p v-if="item.comments">Comments: {{ item.comments }}</p>
   <p v-if="item.damage_type">Damage type: {{ item.damage_type }}</p>
+  <p v-if="item.modifications">Modifications: {{ item.modifications }}</p>
+<p v-if="item['performed by']">Performed by: {{ item['performed by'] }}</p>
+<p v-if="item.description_modification">Description Modification: {{ item.description_modification }}</p>
+<p v-if="item.action">Action: {{ item.action }}</p>
+
  
    </li>
   </ul>
