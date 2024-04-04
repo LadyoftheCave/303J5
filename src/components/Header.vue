@@ -22,12 +22,7 @@
 </template>
 <script>
 export default {
-    name: 'Header',
-    data() {
-        return {
-
-        }
-    }
+    name: 'Header'
 
 }
 </script>

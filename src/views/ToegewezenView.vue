@@ -6,22 +6,22 @@
               <p><b>Type: {{ report.type }} </b></p>
               <p>Location: {{ report.location }}</p>
               <p v-if="report.new_damage">New Damage: {{ report.new_damage }}</p>
-  <p v-if="report.date">Date: {{ report.date }}</p>
-  <p v-if="report.acute_action_required">Acute action: {{ report.acute_action_required }}</p>
-  <p v-if="report.description">Description: {{ report.description }}</p>
-  <p>Pictures: {{ report.pictures }}</p>
-  <p v-if="report.type_of_maintenance">Type of maintenance: {{ report.type_of_maintenance }}</p>
-  <p v-if="report.cost_indication">Cost indication: {{ report.cost_indication }}</p>
-  <p v-if="report.type_of_installation">Type of installation: {{ report.type_of_installation }}</p>
-  <p v-if="report.reported_faults">Reported faults: {{ report.reported_faults }}</p>
-  <p v-if="report.test_procedure">Test procedure: {{ report.test_procedure }}</p>
-  <p v-if="report.test_approved">Approved: {{ report.test_approved }}</p>
-  <p v-if="report.comments">Comments: {{ report.comments }}</p>
-  <p v-if="report.damage_type">Damage type: {{ report.damage_type }}</p>
-  <p v-if="report.modifications">Modifications: {{ report.modifications }}</p>
-<p v-if="report['performed by']">Performed by: {{ report['performed by'] }}</p>
-<p v-if="report.description_modification">Description Modification: {{ report.description_modification }}</p>
-<p v-if="report.action">Action: {{ report.action }}</p>
+              <p v-if="report.date">Date: {{ report.date }}</p>
+              <p v-if="report.acute_action_required">Acute action: {{ report.acute_action_required }}</p>
+              <p v-if="report.description">Description: {{ report.description }}</p>
+              <p>Pictures: {{ report.pictures }}</p>
+              <p v-if="report.type_of_maintenance">Type of maintenance: {{ report.type_of_maintenance }}</p>
+              <p v-if="report.cost_indication">Cost indication: {{ report.cost_indication }}</p>
+              <p v-if="report.type_of_installation">Type of installation: {{ report.type_of_installation }}</p>
+              <p v-if="report.reported_faults">Reported faults: {{ report.reported_faults }}</p>
+              <p v-if="report.test_procedure">Test procedure: {{ report.test_procedure }}</p>
+              <p v-if="report.test_approved">Approved: {{ report.test_approved }}</p>
+              <p v-if="report.comments">Comments: {{ report.comments }}</p>
+              <p v-if="report.damage_type">Damage type: {{ report.damage_type }}</p>
+              <p v-if="report.modifications">Modifications: {{ report.modifications }}</p>
+              <p v-if="report['performed by']">Performed by: {{ report['performed by'] }}</p>
+              <p v-if="report.description_modification">Description Modification: {{ report.description_modification }}</p>
+              <p v-if="report.action">Action: {{ report.action }}</p>
 
 
 
