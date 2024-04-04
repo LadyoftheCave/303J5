@@ -49,7 +49,7 @@ h3 {
 }
 
 p {
-    font-weight: 250;
+    font-weight: 300;
     font-size: .8rem;
 }
 

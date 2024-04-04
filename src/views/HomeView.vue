@@ -41,7 +41,7 @@ h2 {
 
 }
 p {
-  font-weight: 250;
+  font-weight: 300;
   font-size: 1rem;
   margin-block-end: 3rem;
 }
