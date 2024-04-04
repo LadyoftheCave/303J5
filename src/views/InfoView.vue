@@ -1,7 +1,7 @@
 <template>
     <main>
     <div class="text_div">
-    <h1>Hier komt de Info-pagina</h1>
+    <h1>Info-pagina</h1>
   </div>
 </main>
 </template>

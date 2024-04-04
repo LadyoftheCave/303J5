@@ -6,9 +6,9 @@
                 
                 <nav>
          
-                        <RouterLink to="/actief" class="footer_link"><img alt="Vue logo" src="../assets/tools.svg" id="settings_footer"/></RouterLink> 
-                    <RouterLink to="/zoek" class="footer_link"><img alt="Vue logo" src="../assets/loupe.svg" id="settings_footer"/></RouterLink>
-                        <RouterLink to="/info" class="footer_link"><img alt="Vue logo" src="../assets/info.svg" id="settings_footer"/></RouterLink>
+                        <RouterLink :to="$route.path === '/' ? '/' : '/actief'" class="footer_link"><img alt="Vue logo" src="../assets/tools.svg" id="settings_footer"/></RouterLink> 
+                    <RouterLink :to="$route.path === '/' ? '/' : '/zoek'" class="footer_link"><img alt="Vue logo" src="../assets/loupe.svg" id="settings_footer"/></RouterLink>
+                        <RouterLink :to="$route.path === '/' ? '/' : '/info'" class="footer_link"><img alt="Vue logo" src="../assets/info.svg" id="settings_footer"/></RouterLink>
           </nav>
 
     

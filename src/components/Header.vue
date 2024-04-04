@@ -5,12 +5,12 @@
             
             <nav>
                 <div class="imgcontainer">            
-                    <RouterLink to="/"><img alt="Vue logo" src="../assets/real_estate_care.svg" id="real_estate"/></RouterLink>
+                    <RouterLink :to="$route.path === '/' ? '/' : '/home'"><img alt="Vue logo" src="../assets/real_estate_care.svg" id="real_estate"/></RouterLink>
                 </div>
 
                 <div class="linkcontainer">
                 <RouterLink to="/"><img alt="Vue logo" src="../assets/bell.svg" id="settings"/></RouterLink>
-                    <RouterLink to="/settings"><img alt="Vue logo" src="../assets/settings.svg" id="settingsTwo"/></RouterLink></div>
+                    <RouterLink :to="$route.path === '/' ? '/' : '/settings'"><img alt="Vue logo" src="../assets/settings.svg" id="settingsTwo"/></RouterLink></div>
       </nav>
 
     
@@ -22,7 +22,13 @@
 </template>
 <script>
 export default {
-    name: 'Header'
+    name: 'Header',
+    data() {
+        return {
+
+        }
+    }
+
 }
 </script>
 

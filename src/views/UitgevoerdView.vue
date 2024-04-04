@@ -8,7 +8,7 @@
 <div v-else>
   <ul>
     <li v-for="(item, index) in data.reports_performed" 
-    :key="index" @click="showDetails(item)">
+    :key="index" @click="showDetails(item)" id="firstLi">
   <strong>Type: {{ item.type }}</strong>
   <p>Location: {{ item.location }}</p>
   <p v-if="item.new_damage">New Damage: {{ item.new_damage }}</p>
@@ -89,8 +89,17 @@ methods: {
 </script>
 <style scoped>
 
+#firstLi {
+  background-color: #d8e4e3;
+  padding: 1rem;
+}
+
 h1 {
 margin-bottom: 1rem;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
