@@ -11,14 +11,14 @@ import settingImage from '@/assets/setting_lv.svg';
   <main>
     <div class="text_div">
       <h1>Real Estate Care</h1>
-      <h3>Real Estate Care, Uw huis, onze zorg sinds 1999</h3>
+      <h2>Real Estate Care, Uw huis, onze zorg sinds 1999</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum iste ad cupiditate perferendis officia quod hic soluta in deleniti accusantium numquam, at modi. Repellendus amet voluptatibus quod quisquam dignissimos. Culpa!</p>
     </div>
 
-    <Container title="Toegewezen" buttonText="Toegewezen" korteText="Toegewezen rapportages" :sectionimage="keyImage" link="/toegewezen"/>
-    <Container title="Uitgevoerd" buttonText="Uitgevoerd" korteText="Uitgevoerde rapportages" :sectionimage="checkImage" link="/uitgevoerd"/>
-    <Container title="Documentatie" buttonText="Documentatie" korteText="Kennisbase/documentatie" :sectionimage="docImage" link="/documentatie"/>
-    <Container title="Instellingen" buttonText="Instellingen" korteText="Instellingen/beheer" :sectionimage="settingImage" link="/settings"/>
+    <Container title="Toegewezen" buttonText="Toegewezen" korteText="Toegewezen rapportages" :sectionimage="keyImage" link="/toegewezen" alt="Link naar toegewezen rapportages"/>
+    <Container title="Uitgevoerd" buttonText="Uitgevoerd" korteText="Uitgevoerde rapportages" :sectionimage="checkImage" link="/uitgevoerd" alt="Link naar uitgevoerde rapportages"/>
+    <Container title="Documentatie" buttonText="Documentatie" korteText="Kennisbase/documentatie" :sectionimage="docImage" link="/documentatie" alt="Link naar kennisbase/documentatie"/>
+    <Container title="Instellingen" buttonText="Instellingen" korteText="Instellingen/beheer" :sectionimage="settingImage" link="/settings" alt="Link naar Instellingen/beheer"/>
   </main>
 </template>
 
@@ -33,10 +33,11 @@ h1 {
   margin-block-start: 2rem;
 }
 
-h3 {
-  color: #00a9a2;
+h2 {
+  /* color: #00a9a2; */
+  color: #027773;
   font-size: .8rem;
-  font-weight: 100;
+  font-weight: 600;
 
 }
 p {

@@ -5,12 +5,12 @@
             
             <nav>
                 <div class="imgcontainer">            
-                    <RouterLink :to="$route.path === '/' ? '/' : '/home'"><img alt="Vue logo" src="../assets/real_estate_care.svg" id="real_estate"/></RouterLink>
+                    <RouterLink :to="$route.path === '/' ? '/' : '/home'"><img alt="Real estate care logo" src="../assets/real_estate_care.svg" id="real_estate"/></RouterLink>
                 </div>
 
                 <div class="linkcontainer">
-                <RouterLink to="/"><img alt="Vue logo" src="../assets/bell.svg" id="settings"/></RouterLink>
-                    <RouterLink :to="$route.path === '/' ? '/' : '/settings'"><img alt="Vue logo" src="../assets/settings.svg" id="settingsTwo"/></RouterLink></div>
+                <RouterLink to="/"><img alt="Bell logo" src="../assets/bell.svg" id="settings"/></RouterLink>
+                    <RouterLink :to="$route.path === '/' ? '/' : '/settings'"><img alt="Settings logo" src="../assets/settings.svg" id="settingsTwo"/></RouterLink></div>
       </nav>
 
     

@@ -1,7 +1,7 @@
 <template>
     <article>
       <div class="blue_div">
-        <img :src="sectionimage" alt="Button Image" @click="navigate">
+        <img :src="sectionimage" :alt="alt" @click="navigate">
       </div>
       <h3>{{ title }}</h3>
       <p>{{ korteText }}</p>
@@ -17,7 +17,8 @@
       sectionimage: String,
       title: String,
       korteText: String,
-      link: String
+      link: String,
+      alt: String
     },
     setup(props) {
       const router = useRouter();
